@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+    <head>
+        <title>h9  imaawdawefaew</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Coiny&family=Sono:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+    <div class="container">    
+        <header class="header" >  
+        <div class="logo">
+        <img src="logo.png" height="68" width="68" alt=""/>
+        <h1>Today I Learned</h1>
+        </div>
+        <button class="btn btn-open">Share a Fact</button>
+        </header>
+        
+        <form class="fact-form hidden">
+        <div class="inner-fact">    
+            <input type="text" placeholder="Share a fact with world..."/>
+            <span>200</span>
+            <input type="text" placeholder="Trust worthy source"/>
+            <select>
+                <option value="">Choose category</option>
+                <option value="">Technology</option>
+                <option value="">Science</option>
+                <option>Finance</option>
+                <option>Society</option>
+                <option>Entertainment</option>
+                <option>Health</option>
+                <option>History</option>
+                <option>News</option>
+                
+            </select>
+        </div>
+        
+            <button class="btn post-btn">POST</button>
+        </form>
+        <main class="main">
+            <aside>
+            <ul>
+                <li><button class="btn btn-all-categories">All</button></li>
+                <li><button class="btn btn-category" style="background-color:#3b82f6">Technology</button></li>
+                <li><button class="btn btn-category" style="background-color:#16a34a">science</button></li>
+                <button class="btn btn-category" style="background-color: #ef4444">Finance</button>
+                <button class="btn btn-category" style="background-color: #eab308">Society</button>
+                <button class="btn btn-category" style="background-color:#db2777 ">Entertainment</button>
+                <button class="btn btn-category" style="background-color: #14b8a6">Health</button>
+                <button class="btn btn-category" style="background-color: #f97316">History</button>
+                <button class="btn btn-category" style="background-color:#8b5cf6 ">News</button>
+            </ul>
+           </aside>
+       
+            <section>
+            <ul class="facts-list">  
+            <li class="fact"> 
+                <p> React is being developex by meta (formerly by facebook).
+                    <a href="https://www.mother.ly/parenting/millennial-dads-spend-more-time-with-their-kids" class="source">(Source)</a>
+    
+                </p>
+            <div class="tag-div">    <span class="tag" style="background-color:#3b82f6">#technology#</span></div>
+                
+                <div class="vote-buttons"> 
+                    <button>👍30</button>
+                    <button>🤯10</button>
+                    <button>⛔️5</button>
+                </div>
+           
+            </li>
+            <li class="fact">
+                <p> Millennial dads spend 3 times as much time with kids than their fathers spent with them.
+                    <a href="https://opensource.fb.com/" class="source">(Source)</a>     
+                </p>
+            <div class="tag-div">  <span class="tag" style="background-color:#eab308">#Society#</span></div>
+               <div class="vote-buttons"> 
+                    <button>👍30</button>
+                    <button>🤯10</button>
+                    <button>⛔️5</button>
+                </div> 
+             </li>
+        </ul>
+    </section>
+        </main>
+    </div>  
+    <script src="script.js">
+</script>  
+    </body>
+</html>
